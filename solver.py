@@ -1,6 +1,7 @@
 import numpy as np
-from sklearn.linear_model import LinearRegression
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.linear_model import LinearRegression, LogisticRegressionCV
+from sklearn.neighbors import KNeighborsClassifier, KNeighborsRegressor
+from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 
 l = []
 MAX_TRAIN = 100000  # The maximum number of training samples to use in the model. For performance purposes
