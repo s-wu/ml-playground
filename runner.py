@@ -4,7 +4,7 @@ import sys
 import solver
 
 if __name__ == '__main__':
-    if len(sys.argv) < 2 or sys.argv[1] not in ['easy', 'medium', 'hard']:
+    if len(sys.argv) < 2 or sys.argv[1] not in ['easy', 'medium', 'hard', 'challenge']:
         print("Sample usage: python runner.py easy")
         exit()
 
